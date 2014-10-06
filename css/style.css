@@ -1,0 +1,55 @@
+/* 
+    Document   : style
+    Created on : Aug 8, 2010, 4:48:12 PM
+    Author     : Vlad
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table.ms-board td {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #888;
+  font: bold 10px Arial;
+  text-align: center;
+}
+
+table.ms-board td.ms-tile-x {
+  background-color: #fcc;
+}
+table.ms-board td.ms-tile-closed {
+  background-color: #e6e6ff;
+}
+table.ms-board td.ms-tile-1 {
+  color: #33f;
+}
+table.ms-board td.ms-tile-2 {
+  color: #0a0;
+}
+table.ms-board td.ms-tile-3 {
+  color: #c00;
+}
+table.ms-board td.ms-tile-4 {
+  color: #006;
+}
+table.ms-board td.ms-tile-5 {
+  color: #006;
+}
+table.ms-board td.ms-tile-6 {
+  color: #0cc;
+}
+table.ms-board td.ms-tile-7 {
+  color: #f00;
+}
+table.ms-board td.ms-tile-8 {
+  color: #0cc;
+}
+
+table.ms-board td.idx {
+  border: none;
+}
+
+table.ms-board td.ms-tile-flagged {
+  background-image: url('../images/flag_16x16.png');
+}
+
